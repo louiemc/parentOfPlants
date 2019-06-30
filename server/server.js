@@ -7,25 +7,30 @@ const routes = require("./routes");
 // INSTANTIATE EXPRESS
 const app = express();
 
-const db = require("./models");
-// console.log("page in models?", Page?);
+const PORT = process.env.PORT || 3001;
 
-// DEFINE MIDDLEWARE HERE
+// const db = require("./models");
+// // console.log("page in models?", Page?);
+
+// // DEFINE MIDDLEWARE HERE
 // app.use(express.static("public"));
 // app.use(express.static("node_modules/axios/dist"));
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+// app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.json());
 
-const PORT = process.env.PORT || 3001;
+// // Serve up static assets (usually on heroku)
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static("client/build"));
+// }
 
 // DEFINE ROUTES HERE
 app.use(routes);
 
-// SEND EVERY OTHER REQUEST TO THE REACT APP
-// DEFINE ANY API ROUTES BEFORE THIS RUNS
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
+// // SEND EVERY OTHER REQUEST TO THE REACT APP
+// // DEFINE ANY API ROUTES BEFORE THIS RUNS
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "./client/build/index.html"));
+// });
 
 // LISTENING ON PORT
 app.listen(PORT, () => {

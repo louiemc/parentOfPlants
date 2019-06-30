@@ -9,9 +9,6 @@ const app = express();
 
 const PORT = process.env.PORT || 3001;
 
-const db = require("./models");
-// console.log("page in models?", Page?);
-
 // DEFINE MIDDLEWARE HERE
 app.use(express.static("public"));
 app.use(express.static("node_modules/axios/dist"));

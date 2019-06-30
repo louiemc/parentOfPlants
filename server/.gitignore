@@ -6,3 +6,4 @@ db
 models 
 public
 routes
+routes/index.js

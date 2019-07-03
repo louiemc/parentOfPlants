@@ -1,5 +1,5 @@
 # plantParenthood
-# Welcome to the PlantiHood
+# Welcome to the Plant Parenthood
 ## My MERN stack app will be dedicated to all Plant Parents! 
 
 **M**ySQL **E**xpress **R**eact **N**ode

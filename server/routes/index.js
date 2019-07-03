@@ -1,10 +1,14 @@
+const express = require("express");
 const path = require("path");
 const router = require("express").Router();
 const apiRoutes = require("./api");
 
-const db = require("./models");
+// const app = express();
+
+// const db = require("./models");
 // console.log("page in models?", Page?);
 
+// DEFINE ROUTES
 // API Routes
 router.use("/api", apiRoutes);
 
@@ -12,6 +16,13 @@ router.use("/api", apiRoutes);
 router.use((req, res) => {
   res.sendFile(path.join(__dirname, "../../client/build/index.html"))
 });
+
+// OTHER ROUTES
+// HomePage Route
+// app.post("/api/users", (req, res) => {
+//   let name = req.body.name;
+// })
+
 
 module.exports = router;
 

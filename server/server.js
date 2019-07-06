@@ -10,6 +10,7 @@ const cookieParser = require("cookie-parser");
 const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
 const logRouter = require("./routes/log");
+const plantRouter = require("./routes/plants");
 
 // INITIALIZE EXPRESS
 const app = express();

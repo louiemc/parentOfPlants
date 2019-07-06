@@ -2,14 +2,16 @@
 const express = require("express");
 const path = require("path"); // The path module provides utilities for working with file and directory paths
 const bodyParser = require("body-parser");
-
 const logger = require("morgan");
 const session = require("express-session");
 const cookieParser = require("cookie-parser");
 
-const routes = require("./routes");
+// ROUTES
+const indexRouter = require("./routes/index");
+const usersRouter = require("./routes/users");
+const logRouter = require("./routes/log");
 
-// INSTANTIATE EXPRESS
+// INITIALIZE EXPRESS
 const app = express();
 
 const PORT = process.env.PORT || 3001;

@@ -29,7 +29,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // DEFINE ROUTES HERE
-app.use(routes);
+// app.use(routes);
 
 // SEND EVERY OTHER REQUEST TO THE REACT APP
 // DEFINE ANY API ROUTES BEFORE THIS RUNS

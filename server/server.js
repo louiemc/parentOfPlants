@@ -15,13 +15,14 @@ const plantRouter = require("./routes/plants");
 // INITIALIZE EXPRESS
 const app = express();
 
+// DEFINE PORT
 const PORT = process.env.PORT || 3001;
 
-// DEFINE MIDDLEWARE HERE
-app.use(express.static("public"));
-app.use(express.static("node_modules/axios/dist"));
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+//  MIDDLEWARE 
+app.use(logger("dev"));
+app.use(cookieParser);
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {

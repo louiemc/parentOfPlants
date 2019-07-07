@@ -45,11 +45,21 @@ app.use(
   })
 );
 
+// LOAD SINGLE HTML PAGE IN CLIENT/BUILD/INDEX.HTML
+app.use(express.static(path.join(__dirname + "/client/build")));
+
+// BODY-PARSER
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+app.use("/", indexRouter);
+app.use("/api",)
+
 // SEND EVERY OTHER REQUEST TO THE REACT APP
 // DEFINE ANY API ROUTES BEFORE THIS RUNS
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "./client/build/index.html"));
+// });
 
 // LISTENING ON PORT
 app.listen(PORT, () => {

@@ -32,6 +32,19 @@ app.use(express.json());
 // DEFINE ROUTES HERE
 // app.use(routes);
 
+// INITIALIZE EXPRESS-SESSION TO ALLOW TRACKING LOGGED-IN USERS ACROSS SESSIONS
+app.use(
+  session({
+    key: "userId",
+    secret: "secretRoute",
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      expires: 600000
+    }
+  })
+);
+
 // SEND EVERY OTHER REQUEST TO THE REACT APP
 // DEFINE ANY API ROUTES BEFORE THIS RUNS
 app.get("*", (req, res) => {

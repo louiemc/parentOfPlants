@@ -69,8 +69,8 @@ app.get("*", (req, res) => {
 // });
 
 // LISTENING ON PORT
-app.listen(PORT, () => {
-  console.log(`API server now on port ${PORT}! or http://localhost:${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`API server now on port ${PORT}! or http://localhost:${PORT}`);
+// });
 
 module.exports = app;

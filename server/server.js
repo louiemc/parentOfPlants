@@ -53,7 +53,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use("/", indexRouter);
-app.use("/api",)
+app.use("/api", usersRouter);
+app.use("/login", logRouter);
+app.use("/plants", plantRouter);
+
+// CATCH ALL ROUTES
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/client/build/index.html"));
+});
 
 // SEND EVERY OTHER REQUEST TO THE REACT APP
 // DEFINE ANY API ROUTES BEFORE THIS RUNS
@@ -65,3 +72,5 @@ app.use("/api",)
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}! or http://localhost:${PORT}`);
 });
+
+module.exports = app;

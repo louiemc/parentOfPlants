@@ -21,7 +21,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h1 className="siteName">Plant Parenthood</h1>
+        <h1 className="siteName">PLANT PARENTHOOD</h1>
 
         <p id="siteDescription">
           The ups and downs of being a plant parent. Maybe you're new to plant
@@ -31,6 +31,21 @@ class Home extends Component {
           care instructions, tips and tricks, and propagation tips that let you
           grow as a plant parent.
         </p>
+
+        <SignInModal
+          isSignedIn={this.props.isSignedIn}
+          changeLogStatus={this.props.changeLogStatus}
+        />
+
+        <div className="open-account-div">
+          <h4 className="new-to-plantParenthood">New to Plant Parenthood?</h4>
+          <button
+            className=" btn btn-dark margin-btn"
+            onClick={this.handleClickOpen}
+          >
+            CREATE AN ACCOUNT
+          </button>
+        </div>
       </div>
     );
   }

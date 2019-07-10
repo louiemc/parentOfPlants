@@ -46,7 +46,25 @@ class Home extends Component {
             CREATE AN ACCOUNT
           </button>
         </div>
+
+        <div>
+          <button className="btn btn-dark margin-btn guest-btn" onClick={this.props.signAsGuest} to="/plants" >PLANT PARENTHOOD GUEST</button>
+        </div>
+
+        {/* MODAL / DIALOG */}
+        <Dialog open={this.state.open} onClose={this.handleClose} changeLogStatus={this.props.changeLogStatus} aria-labaelledby="form-dialog-title" className="dialogbox">
+          <MainForm isSignedIn={this.props.isSignedIn} changeLogStatus={this.props.changeLogStatus} handleClickOpen={this.handleClickOpen} handleClose={this.handleClose} />
+        </Dialog>
+
+        {this.props.guest === true ? (
+          <Redirect to={{ pathname: "/plants" }} />
+
+        ) : (
+          <p />
+        )}
       </div>
     );
   }
 }
+
+export default Home;

@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const logger = require("morgan");
 const session = require("express-session");
 const cookieParser = require("cookie-parser");
+import mailer from "./mailer";
 
 // ROUTES
 const indexRouter = require("./routes/index");
@@ -60,7 +61,20 @@ app.use("/plants", plantRouter);
 // CATCH ALL ROUTES
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname + "/client/build/index.html"));
+  res.send("server is working. Please post at '/contact' to submit a message.");
 });
+
+app.post("/contact", (req,res) => {
+  const { email = '', name= '', message = '' } = req.body;
+
+  mailer({ email, name, text: message }).then(() => {
+    console.log(`Sent the message "${message}" from <${name}> ${email}.`);
+    res.redirect("/#success");
+  }).catch((error) => {
+    console.log(`Failed to send the message "${message}" from <${name}> ${email} with the error ${error && error.message}`);
+    res.redirect('/#error');
+  })
+})
 
 // SEND EVERY OTHER REQUEST TO THE REACT APP
 // DEFINE ANY API ROUTES BEFORE THIS RUNS
@@ -69,8 +83,8 @@ app.get("*", (req, res) => {
 // });
 
 // LISTENING ON PORT
-// app.listen(PORT, () => {
-//   console.log(`API server now on port ${PORT}! or http://localhost:${PORT}`);
-// });
+app.listen(PORT, () => {
+  console.log(`API server now on port ${PORT}! or http://localhost:${PORT}`);
+});
 
 module.exports = app;

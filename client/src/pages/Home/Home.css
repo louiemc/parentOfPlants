@@ -18,14 +18,16 @@ font-family: 'Handlee', cursive;
 /* SUMMARY SECTION DESCRIPTION */
 .homeSection {
   width: 100%;
-  background-color: #ccc;
+  /* background-color: #ccc; */
   /* margin-top: 5%; */
 }
 #welcomePicture {
   /* float: left; */
   width: 100%;
   min-height: 100vh;
-  background-color: black;
+  /* background-color: black; */
+  background-image: url("/images/welcomepic.png");
+  background-size: cover;
 }
 #summaryDescription {
   /* float: left; */
@@ -80,7 +82,8 @@ font-family: 'Handlee', cursive;
   /* float: left; */
   width: 100%;
   min-height: 100vh;
-  background-color: blue;
+  background-image: url("/images/zcaresymbols.png");
+  background-size: cover;
 }
 #siteExplanation {
   /* float: left; */
@@ -92,7 +95,7 @@ font-family: 'Handlee', cursive;
 #explanationTitle {
   text-align: center;
   margin-top: 15%;
-  margin-bottom: 5%;
+  padding-bottom: 5%;
   font-family: "Poiret One", cursive;
 }
 #explanationDescription {
@@ -135,7 +138,9 @@ font-family: 'Handlee', cursive;
   /* float: left; */
   width: 100%;
   min-height: 100vh;
-  background-color: black;
+  /* background-color: black; */
+  background-image: url("/images/zcare.png");
+  background-size: cover;
 }
 /* PLANT VARIETIES - PARAGRAPHS */
 #varietyTitle {
@@ -168,7 +173,9 @@ font-family: 'Handlee', cursive;
   float: left;
   width: 100%;
   min-height: 100vh;
-  background-color: black;
+  /* background-color: black; */
+  background-image: url("/images/zpropagation.png");
+  background-size: cover;
 }
 /* PROPAGATION TITLES AND PARAGRAPHS */
 #propagationTitle {

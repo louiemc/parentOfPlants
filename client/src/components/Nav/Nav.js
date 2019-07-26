@@ -54,7 +54,7 @@ class Nav extends Component {
       <div className={classnames("navBar", {"navBar--hidden": !this.state.visible})}>
         <div className="logo">
           <a href="/">
-            <img src="#" alt="logo" />
+            <img src="/images/zlogo.png" alt="logo" />
             {/* <h1>Profile Plant</h1> */}
           </a>
         </div>

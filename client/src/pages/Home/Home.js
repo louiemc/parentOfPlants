@@ -41,7 +41,7 @@ class Home extends Component {
           </div>
 
           <div id="welcomePicture">
-            <img src="#" alt="plant parent with logo" />
+            {/* <img src="/images/welcomepic.png" alt="plant parent with logo" /> */}
           </div>
         </section>
 
@@ -99,7 +99,7 @@ class Home extends Component {
           </div>
 
           <div id="sitePicture">
-            <img src="#" alt="plants and icons" />
+            {/* <img src="#" alt="plants and icons" /> */}
           </div>
         </section>
 
@@ -116,7 +116,7 @@ class Home extends Component {
           </div>
 
           <div id="varietyPicture">
-            <img src="#" alt="plant varieties" />
+            {/* <img src="#" alt="plant varieties" /> */}
           </div>
         </section>
 
@@ -135,7 +135,7 @@ class Home extends Component {
             </p>
           </div>
           <div id="propagationPicture">
-            <img src="#" alt="plant propagation" />
+            {/* <img src="#" alt="plant propagation" /> */}
           </div>
         </section>
 

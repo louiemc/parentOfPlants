@@ -1,0 +1,66 @@
+.dialogBio {
+  width: 600px;
+  height: 600px;
+  color: #333333;
+  text-align: center;
+  background-color: rgb (245, 245, 245);
+  border: 3px solid #333333;
+  padding-top: 20%;
+}
+
+.dialog-title {
+  text-align: center;
+  margin-bottom: 8%;
+}
+
+.first-name-input-update, .last-name-input-update {
+  display: inline-block;
+  width: 100%;
+}
+
+.email-input-update {
+  display: inline-block;
+  width: 60%;
+}
+
+.buttons-container {
+  margin-top: 3%;
+  /* border-top: 1px solid lightgrey; */
+}
+
+.bio-update-cancel-btn {
+  margin-left: 2%;
+}
+
+.btn-save-update-bio {
+  background-color: #333333;
+  width: 20%;
+  color: white;
+}
+
+.btn-save-update-bio:hover {
+  opacity: 0.8;
+}
+
+.bio-box {
+  padding-bottom: 5%;
+  background-color: rgb(245, 245, 245);
+  /* padding-top: 2%; */
+  padding-top: 65px;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .dialogBio {
+      padding-top: 20px;
+      width: auto;
+      height: auto;
+  }
+  .first-name-input-update, .last-name-input-update, .email-input-update {
+      width: 70vw;
+  }
+  .buttons-container {
+      width: auto;
+      margin-bottom: 20px;
+  }
+}

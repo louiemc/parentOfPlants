@@ -1,0 +1,49 @@
+/* 
+font-family: 'Squada One', cursive;
+font-family: 'Bahianita', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Handlee', cursive;
+*/
+
+/* BLOG PAGE TITLE */
+.blogPageTitle {
+  margin-top: 3em;
+  font-family: 'Poiret One', cursive;
+}
+
+/* BLOG BODY -holding are for links to blog */
+.blogBody {
+  width: 100%;
+  min-height: 50em;
+  padding: 2em 2em;
+}
+/* BLOG 'CARD' */
+.blogDiv {
+  border: 1px solid rgb(15, 152, 59);
+  border-radius: 25px;
+  padding: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  float: left;
+}
+
+/* BLOG IMAGE */
+.blogImage {
+  background-color: aqua;
+  padding: 2em;
+  margin: 0;
+}
+
+/* BLOG TITLE */
+.blogTitle {
+  text-align: left;
+}

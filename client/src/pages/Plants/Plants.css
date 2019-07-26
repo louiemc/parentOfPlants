@@ -1,0 +1,125 @@
+#blankPic {
+  background-color: #000;
+}
+
+/* 
+font-family: 'Squada One', cursive;
+font-family: 'Bahianita', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Handlee', cursive;
+*/
+
+/* BLOG PAGE TITLE */
+.plantPageTitle {
+  margin-top: 4em;
+  margin-left: 8%;
+  text-align: left;
+  /* font-family: 'Playfair Display SC', serif; */
+  font-family: 'Poiret One', cursive;
+}
+/* .plantPageLegend {
+  margin-top: 1.5em;
+  margin-left: 5em;
+  text-align: left;
+  width: 100%;
+}
+span {
+  display: inline-flex;
+  width: 100%;
+  text-align: left;
+}
+.legendSymbols {
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+  width: 20%;
+  text-align: left;
+}
+.legendSymbols li {
+display: inline-block;
+margin-right: .75em;
+margin-top: .75em;
+}
+.legendSymbols li img {
+width: 25px;
+height: 25px;
+} */
+
+/* BLOG BODY -holding are for links to blog */
+.plantBody {
+  width: 100%;
+  min-height: 600em;
+  padding: 3% 3% 6% 8%;
+}
+/* PLANT 'CARD' */
+.plantDiv {
+  /* border: 1px solid rgb(15, 152, 59); */
+  /* border-radius: 25px; */
+  /* padding: 2em; */
+  margin-right: 4%;
+  margin-bottom: 3.5%;
+  margin-top: 3%;
+  height: 30em;
+  width: 20em;
+  float: left;
+}
+
+/* PLANT IMAGE */
+.plantDiv img {
+  /* background-color: aqua; */
+  height: 85%;
+  width: 100%;
+  /* margin-top: .5em; */
+}
+
+.plantDiv a {
+  text-decoration: none;
+}
+.plantDiv a:hover {
+  text-decoration: underline;
+}
+
+/* PLANT TITLE */
+.plantTitle {
+  text-align: left;
+  letter-spacing: 1px;
+  /* padding-left: 1em; */
+  color: rgb(0, 220, 220);
+}
+/* .scientificName {
+  text-align: left;
+  margin-top: 0;
+  color: rgb(0, 215, 0);
+} */
+
+.careSymbols {
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  /* margin-left: .5em; */
+}
+.careSymbols li {
+  display: inline-block;
+  margin-right: .75em;
+  margin-top: .75em;
+  border-right: 1px solid #ccc;
+}
+.careSymbols li:last-child {
+border-right: none;
+}
+.careSymbols li img {
+  width: 25px;
+  height: 25px;
+  margin-right: .5em;
+}

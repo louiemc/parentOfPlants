@@ -1,0 +1,48 @@
+input {
+  width: 25%;
+}
+
+.sign-in-input {
+  width: 40vw;
+  font-size: 14px;
+}
+
+div .sign-in-component {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.label {
+  width: 40vw;
+  text-align: left;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+.sign-in-btn {
+  background-color: #333333;
+  color: white;
+}
+
+.sign-in-btn:hover {
+  opacity: 0.8;
+  color: white;
+}
+
+#error {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sign-in-input {
+      width: 100%;
+  }
+  .label {
+      width: 100%;
+  }
+}

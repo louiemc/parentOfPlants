@@ -1,0 +1,77 @@
+/* 
+font-family: 'Squada One', cursive;
+font-family: 'Bahianita', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Handlee', cursive;
+*/
+
+/* PLANT IMAGE */
+.plantPagePic {
+  margin-top: 5em;
+  background-repeat: space;
+  background-size: cover;
+  background-color: #fff;
+}
+#individualImage {
+  background-repeat: repeat;
+  background-size: cover;
+  width: 15em;
+  height: 20em;
+  margin: 2em;
+}
+
+/* PLANT CARE */
+.plantCareTitle {
+  margin-top: 2em;
+  margin-bottom: .5em;
+  font-family: 'Poiret One', cursive;
+font-size: 2.5em;
+}
+
+/* PLANT NAME */
+.plantPagePlant {
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 2px;
+  margin-bottom: 3em;
+}
+
+/* CARE DESCRIPTIONS SECTION */
+.careDescriptions {
+min-height: 60em;
+font-family: 'Darker Grotesque', sans-serif;
+}
+
+#careSymbolPlants {
+  width: 10em;
+  height: 10em;
+  float: left;
+  margin: 2em;
+}
+#careDescriptionPlants {
+  text-align: left;
+  line-height: 2;
+  letter-spacing: 1px;
+  margin-left: 15em;
+  border-top: 2px solid rgb(104, 255, 73);
+}
+
+.sunCare {
+width: 100%;
+}
+.waterCare{
+width: 100%;
+}
+
+.petCare{
+width: 100%;
+/* border-top: 1px dashed darkgreen; */
+}

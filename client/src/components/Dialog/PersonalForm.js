@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Autocomplete from "react-google-autocomplete";
-import { LoadScript } from "@react-google-maps/api";
+// import Autocomplete from "react-google-autocomplete";
+// import { LoadScript } from "@react-google-maps/api";
 
 export class PersonalForm extends Component {
   state = {
@@ -45,19 +45,19 @@ export class PersonalForm extends Component {
             defaultValue={values.lastName}
           />
           <p>ADDRESS*</p>
-          <LoadScript
+          {/* <LoadScript
             id="script-loader"
             googleMapsApiKey="AIzaSyCf5XbHpo55ZX7k4IILZKfh5ejJ33mFeFw"
             libraries={["places"]}
-          >
-            <Autocomplete
+          > */}
+            {/* <Autocomplete
               style={{ index: 1000 }}
               className="form-control"
               onLoad={this.onLoad}
               onPlaceSelected={this.onPlaceSelected}
               types={["geocode"]}
             />
-          </LoadScript>
+          </LoadScript> */}
           <div className="btn-margins">
             <button className="btn btn-dark" onClick={this.continue}>
               SIGN UP

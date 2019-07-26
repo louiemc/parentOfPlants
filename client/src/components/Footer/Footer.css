@@ -1,0 +1,72 @@
+/* 
+font-family: 'Squada One', cursive;
+font-family: 'Bahianita', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Handlee', cursive;
+*/
+
+.linksCopyright {
+/* margin-top:2350vh; */
+}
+
+.footerInfoLinks {
+  width: 100%;
+  /* min-height: 8em; */
+  text-align: left;
+  border-top: 1px solid #000;
+  /* background-color: #ccc; */
+}
+.profilePlantCol {
+  width: 25%;
+  /* background-color: #ccc; */
+  /* display: inline-block; */
+  float: left;
+}
+.footerColTitle {
+  text-align: center;
+  padding-top: 1em;
+  font-family: 'Merriweather', serif;
+}
+.footerColLink {
+  text-align: left;
+  padding-left: 33%;
+  color: #000;
+}
+.footerColLink a {
+  color: #000;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.05em;
+}
+.footerColLink a:hover {
+  text-decoration: none;
+  color: rgb(107, 240, 125);
+}
+.footerColLink:last-child {
+  padding-bottom: 1em;
+}
+
+
+.ppCopyright {
+  width: 100%;
+  border-top: #000 1px solid;
+  text-align: right;
+  padding-right: 5%;
+  padding-top: 4%;
+  /* background-color: gray; */
+  float: left;
+}
+.ppCopyright img {
+  height: 25px;
+  width: 25px;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}

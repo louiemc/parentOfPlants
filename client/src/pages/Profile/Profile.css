@@ -1,0 +1,65 @@
+.row-profile {
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
+}
+
+.row {
+  justify-content: space-around;
+}
+
+.profile-title {
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+body {
+  background-color: #dddddd;
+}
+
+.sign-in-component {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+}
+
+.you-must-log-in {
+  margin: auto;
+}
+
+#must-log-in {
+  margin-top: 10%;
+}
+
+.profile-component {
+  margin-top: 8%;
+  animation-name: fall;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  /* background-image: url("../../images/Logo_noname.jpg"); */
+}
+
+@keyframes fall {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+/* 
+@media only screen and (max-width: 600px) {
+  .you-must-log-in {
+      margin-top: 20%;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .open-account-div {
+      margin-top: 5%;
+      margin-bottom: 20px;
+  }
+  .btn {
+      margin-top: 0;
+  } */

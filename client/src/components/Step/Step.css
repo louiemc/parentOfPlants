@@ -1,0 +1,41 @@
+.card {
+  /* margin: 10px; */
+  width: 100%;
+  display: inline-block;
+  border-radius: none;
+  border: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  background: #23272b;
+  color: #d5d5d5;
+  cursor: pointer;
+}
+
+.card-header:hover {
+  background: #343A40;
+}
+
+.list-group {
+  min-height: 40px;
+  background: #d5d5d5;
+  color: #757575;
+}
+
+.list-group-item {
+  background: #d5d5d5;
+}
+
+.list-group:hover {
+  opacity: 0.9;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.card-header:first-child {
+  border-radius: 0;
+}

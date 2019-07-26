@@ -1,0 +1,113 @@
+.dialogForm {
+  width: 600px;
+  height: 700px;
+  /* color: black; */
+  color: #404040;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  border: 3px solid #333333;
+  padding: 0;
+}
+
+.form {
+  margin-top: 10%;
+}
+
+.form-control {
+  width: 60%;
+  display: inline-block;
+}
+
+input {
+  width: 60%;
+  display: inline-block;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.user-form-modal-body {
+  margin-top: 23%;
+}
+
+.red {
+  color: #ee5353;
+}
+
+.personal-form-modal-body {
+  margin-top: 8%;
+}
+
+.confirmation-title {
+  margin-top: 20%;
+}
+
+.confirmation-modal-body {
+  margin-top: 8%;
+}
+
+.confirm-data {
+  /* border: 1px solid #333333;
+  border-radius: 3px; */
+  width: 70%;
+  text-align: left;
+  /* margin-left: auto;
+  margin-right: auto; */
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin: auto;
+  /* background-color: white; */
+}
+
+.btn-confirm-info, .btn-edit-info {
+  display: inline-block;
+}
+
+.btn {
+  margin-top: 15px;
+}
+
+input {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.bolder-text {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-lg-4 {
+      margin-bottom: 40px;
+  }
+  .dialogForm {
+      width: auto;
+      height: auto;
+      padding: 20px;
+  }
+  .form-control {
+      width: 60vw;
+  }
+  input {
+      width: 60vw;
+  }
+  .btn-margins {
+      margin-top: 20px;
+  }
+  .confirm-data {
+      width: 100%;
+  }
+}

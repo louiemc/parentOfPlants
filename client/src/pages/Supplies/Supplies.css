@@ -1,0 +1,56 @@
+/* 
+font-family: 'Squada One', cursive;
+font-family: 'Bahianita', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Handlee', cursive;
+*/
+
+/* PAGE TITLE */
+.suppliesPageTitle {
+  margin-top: 3em;
+  text-align: left;
+  margin-left: 5%;
+  font-family: 'Poiret One', cursive;
+}
+
+.suppliesBody {
+  width: 100%;
+  min-height: 175em;
+  padding: 3% 3%;
+}
+
+.suppliesDiv {
+  border-top: 1px solid rgb(15, 152, 59);
+  padding: 3%;
+  margin-right: 2em;
+  /* margin-bottom: 3em; */
+  /* margin-left: 4em; */
+  float: left;
+  width: 100%;
+  height: 30%;
+}
+
+.supplyImage {
+  background-color: aqua;
+  /* padding: 2em; */
+  margin-right: 3em;
+  height: 85%;
+  width: 25%;
+  float: left;
+}
+
+.supplyTitle {
+  text-align: left;
+  width: 100%;
+}
+
+

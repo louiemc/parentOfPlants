@@ -1,0 +1,658 @@
+[
+  {
+    "id": 1,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Ponytail Palm",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  
+  {
+    "id": 2,
+    "plant_image": "/assets/images/plantalocasia.jpg",
+    "plant_name": "Alocasia Poly",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  
+  {
+    "id": 2,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Coffee Plant",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  
+  {
+    "id": 3,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Avocado Plant",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  
+  {
+    "id": 4,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Spider Plant",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 5,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Philodendron Brasil",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  
+  {
+    "id": 6,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Philodendron Green",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 7,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Pothos Green",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  
+  {
+    "id": 8,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Sansevieria Black Gold",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 9,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Sansevieria Futura Superba",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  
+  {
+    "id": 10,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Sansevieria Futura Robusta",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  {
+    "id": 11,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Sansevieria Moonshine",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  {
+    "id": 12,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Sansevieria Whale Fin",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  {
+    "id": 13,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Sansevieria Cylindrica",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  {
+    "id": 14,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Sansevieria Samurai Dwarf",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  {
+    "id": 15,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Sansevieria Golden Hahnii",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  {
+    "id": 16,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Sansevieria Robusta",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },  {
+    "id": 17,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Sansevieria Mikado",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 18,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Calathea Rattlesnake",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 19,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Fiddle Leaf Fig",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 20,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Fern Stag Horn",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 21,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Fern Bird's Nest",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 22,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Jade",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 23,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Cactus Bunny Ears",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 24,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Aloe",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 25,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Gasteraloe",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 26,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Monstera Deliciosa",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 27,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Monstera Mini",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 28,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Monstera Hope Selloum",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 29,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Croton Magnificent",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 30,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Croton Petra",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 31,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "String of Pearls",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 32,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "String of Tears",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 33,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Pilea Peperomioides",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 34,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Golden Gate Peperomia",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 35,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Schefflera Dwarf",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 36,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Oxalis Triangularis Purple",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 37,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Zamioculcas zamicro - ZZ",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  },
+  {
+    "id": 38,
+    "plant_image": "/assets/images/ponytailpalm.jpg",
+    "plant_name": "Air Plants",
+    "careSymbol": {
+      "sun": "/images/symbolsunny.png",
+      "sunCloud": "/images/symbolnosun.png",
+      "indirectSun": "/images/symbolIndirectSun.png",
+      "noIndirectSun": "/images/symbolnoIndirectSun.png",
+      "water": "/images/symbolwater.png",
+      "noWater": "/images/symbolnowater.png",
+      "petFriendly": "/images/symbolpetfriendly.png",
+      "noPetFriendly": "/images/symbolnoPetFriendly.png",
+      "airPurifying": "/images/symbolair.png",
+      "noAirPurifying": "/images/symbolnoair.png"
+    }
+  }
+]

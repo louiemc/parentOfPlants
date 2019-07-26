@@ -7,7 +7,7 @@ import React, { Component } from "react";
 // import DialogContentText from "@material-ui/core/DialogContentText";
 // import DialogTitle from "@material-ui/core/DialogTitle";
 import "./Dialog.css";
-import API from "../../utils/API";
+// import API from "../../utils/API";
 
 class UserForm extends Component {
   continue = async e => {
@@ -28,16 +28,16 @@ class UserForm extends Component {
     logInData.password = this.state.password;
     console.log("this.state.email ", this.state.email);
     console.log("this.state.password ", this.state.password);
-    API.logUser(this.state)
-      .then(res => {
-        console.log("DEBUG LOG IN USER DATA !!!!!");
-        console.log("this.state.email ", this.state.email);
-        console.log("this.state.password ", this.state.password);
-        if (res) {
-          this.props.changeLogStatus();
-        }
-      })
-      .catch(err => console.log(err));
+    // API.logUser(this.state)
+    //   .then(res => {
+    //     console.log("DEBUG LOG IN USER DATA !!!!!");
+    //     console.log("this.state.email ", this.state.email);
+    //     console.log("this.state.password ", this.state.password);
+    //     if (res) {
+    //       this.props.changeLogStatus();
+    //     }
+    //   })
+    //   .catch(err => console.log(err));
   };
 
   //   logInModal = event => {

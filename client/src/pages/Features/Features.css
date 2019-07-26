@@ -1,0 +1,75 @@
+/* 
+font-family: 'Squada One', cursive;
+font-family: 'Bahianita', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Handlee', cursive;
+*/
+
+/* SIMPLE SECTION */
+.simpleFeatures {
+  margin-top: 10%;
+  border: 1px solid #000;
+  border-top: none;
+  height: 100vh;
+  width: 49%;
+  float: left;
+  background-color: #fff;
+}
+.sectionTitle {
+  margin-top: 13%;
+  font-family: 'Poiret One', cursive;
+}
+
+/* STRAIGHT FORWARD SECTION */
+.straightForwardFeatures {
+  margin-top: 10%;
+  border: 1px solid #000;
+  border-top: none;
+  float: right;
+  height: 50vh;
+  width: 49%;
+  background-color: #fff;
+}
+
+
+/* INFORMATIVE SECTION */
+.informativeFeatures {
+  margin-top: 3%;
+  float: right;
+  width: 49%;
+  height: 100vh;
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+/* TIPS AND TRICKS SECTION */
+.tipsTricksFeatures {
+  border: 1px solid #000;
+  float: left;
+  height: 50vh;
+  width: 49%;
+  margin-top: 3%;
+  background-color: #fff;
+}
+
+/* F SUBSCRIBE SECTION */
+/* .fSubscribe {
+  padding-top: 100%;
+  padding-bottom: 4em;
+  background-color: #3aced0;
+  border-bottom: 1px solid #000;
+  font-family: 'Handlee', cursive;
+  font-size: 1.25em;
+  color: #fff;
+} */
+
+

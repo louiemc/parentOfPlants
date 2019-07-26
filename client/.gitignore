@@ -25,7 +25,7 @@ yarn-error.log*
 package.json
 package-lock.json
 
-src
-App.js
-App.css
+# src
+# App.js
+# App.css
 

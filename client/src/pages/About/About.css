@@ -1,0 +1,212 @@
+/* 
+font-family: 'Squada One', cursive;
+font-family: 'Bahianita', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Handlee', cursive;
+*/
+
+/* ABOUT WELCOME SECTION */
+.aboutWelcome {
+  width: 100%;
+  background-color: rgb(201, 204, 204);
+  margin-top: 5em;
+  min-height: 75vh;
+}
+#aboutTitle {
+  font-size: 1em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  color: rgb(0, 255, 0);
+  font-family: 'Merriweather', serif;
+}
+.aboutDescription {
+  padding-top: 1.5em;
+  color: aqua;
+  font-size: 3em;
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+}
+
+/* PHOTO ABOUT SECTION */
+#photoAbout {
+  width: 100%;
+  height: 50vh;
+  margin-top: 5%;
+}
+.aboutImages {
+  height: 65%;
+  width: 30%;
+  margin: 1%
+}
+
+/* IMAGE ONE DIV */
+.aboutImage img {
+  width: 100%;
+  /* height: 100%; */
+}
+#imageOneTitle {
+  /* position: absolute; */
+  /* top: 27em; */
+  width: 100%;
+  /* left: 0; */
+  text-align: left;
+  padding-left: 3%;
+  /* letter-spacing: 2px; */
+  color: rgb(3, 230, 230);
+  font-family: 'Playfair Display SC', serif;
+  filter: drop-shadow(0 0 0.75rem rgb(3, 230, 230));
+}
+
+#imageOneDescription {
+  /* position: absolute; */
+  /* top: 34em; */
+  width: 100%;
+  /* left: 0; */
+  text-align: left;
+  padding-left: 3%;
+  font-size: 1.5em;
+  color: rgb(0, 215, 0);
+  font-family: 'Darker Grotesque', sans-serif;
+  /* filter: drop-shadow(0 0 0.75rem rgb(0, 215, 0)); */
+}
+
+/* IMAGE TWO DIV */
+.aboutImage img {
+  width: 100%;
+  height: 100%;
+}
+#imageTwoTitle {
+  /* position: absolute; */
+  /* top: 52.5em; */
+  width: 100%;
+  /* left: 0; */
+  margin-top: 5%;
+  padding-right: 3%;
+  text-align: right;
+  color: rgb(3, 230, 230);
+  font-family: 'Playfair Display SC', serif;
+  filter: drop-shadow(0 0 0.75rem rgb(3, 230, 230));
+}
+
+#imageTwoDescription {                                                 
+  /* position: absolute; */
+  /* top: 62.25em; */
+  width: 100%;
+  /* left: 0; */
+  text-align: right;
+  line-height: 2em;
+  /* padding-left: 9em; */
+  padding-right: 3%;
+  font-size: 1.5em;
+  color: rgb(0, 215, 0);
+  font-family: 'Darker Grotesque', sans-serif;
+  /* filter: drop-shadow(0 0 0.75rem rgb(0, 215, 0)); */
+}
+
+/* IMAGE THREE DIV */
+.aboutImage img {
+  width: 100%;
+  height: 100%;
+}
+#imageThreeTitle {
+  /* position: absolute; */
+  /* top: 71em; */
+  width: 100%;
+  /* left: 0; */
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  /* padding-left: 5em; */
+  font-size: 2em;
+  color: rgb(3, 230, 230);
+  font-family: 'Playfair Display SC', serif;
+  filter: drop-shadow(0 0 0.75rem rgb(3, 230, 230));
+}
+#imageThreeDescription {
+  /* position: absolute;
+  top: 99em; */
+  width: 100%;
+  /* left: 0; */
+  text-align: left;
+  margin-left: 3%;
+  font-size: 1.5em;
+  color: rgb(0, 215, 0);
+  font-family: 'Darker Grotesque', sans-serif;
+  /* filter: drop-shadow(0 0 0.75rem rgb(0, 215, 0)); */
+}
+#imageThreeDescriptionTwo {
+  /* position: absolute; */
+  padding-left: 3%;
+  /* top: 108em;                  */
+  width: 100%;
+  /* left: 0; */
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  color: rgb(0, 215, 0);
+  font-family: 'Darker Grotesque', sans-serif;
+  /* filter: drop-shadow(0 0 0.75rem rgb(0, 215, 0)); */
+}
+#imageThreeDescriptionThree {
+  /* position: absolute; */
+  /* padding-right: .75em; */
+  /* top: 122em;                  */
+  width: 100%;
+  /* left: 0; */
+  text-align: left;
+  margin-left: 3%;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  color: rgb(0, 215, 0);
+  font-family: 'Darker Grotesque', sans-serif;
+  /* filter: drop-shadow(0 0 0.75rem rgb(0, 215, 0)); */
+}
+
+/* IMAGE FOUR DIV */
+#imageFourTitle {
+  /* position: absolute; */
+  /* top: 100em; */
+  width: 100%;
+  /* left: 0; */
+  text-align: right;
+  padding-right: 3%;
+  margin-top: 5%;
+  font-size: 2em;
+  color: rgb(3, 230, 230);
+  font-family: 'Playfair Display SC', serif;
+  filter: drop-shadow(0 0 0.75rem rgb(3, 230, 230));
+}
+#imageFourDescription {
+  /* position: absolute; */
+  /* top: 136em; */
+  width: 100%;
+  /* left: 0; */
+  text-align: right;
+  padding-right: 3%;
+  margin-bottom: 3%;
+  line-height: 2em;
+  font-size: 1.5em;
+  color: rgb(0, 215, 0);
+  font-family: 'Darker Grotesque', sans-serif;
+  /* filter: drop-shadow(0 0 0.75rem rgb(0, 215, 0)); */
+}
+
+/* ABOUT SUBSCRIBE */
+/* .Subscribe {
+  background-color: #3aced0;
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  font-family: 'Handlee', cursive;
+  font-size: 1.25em;
+  color: #fff;
+} */

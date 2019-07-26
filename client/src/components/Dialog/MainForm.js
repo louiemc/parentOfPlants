@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import UserForm from "./UserForm";
 import PersonalForm from "./PersonalForm";
-import ConfirmationForm from "./ConfirmationForm";
+import ConfirmationForm from "./ConfimationForm";
 import SuccessForm from "./SuccessForm";
 // import API from "../../utils/API";
 
@@ -73,16 +73,16 @@ export class MainForm extends Component {
     logInData.password = this.state.password;
     console.log("this.state.email ", this.state.email);
     console.log("this.state.password ", this.state.password);
-    API.logUser(this.state)
-      .then(res => {
-        console.log("DEBUG LOG IN USER DATA !!!!!");
-        console.log("this.state.email ", this.state.email);
-        console.log("this.state.password ", this.state.password);
-        if (res) {
-          this.props.changeLogStatus();
-        }
-      })
-      .catch(err => console.log(err));
+    // API.logUser(this.state)
+    //   .then(res => {
+    //     console.log("DEBUG LOG IN USER DATA !!!!!");
+    //     console.log("this.state.email ", this.state.email);
+    //     console.log("this.state.password ", this.state.password);
+    //     if (res) {
+    //       this.props.changeLogStatus();
+    //     }
+    //   })
+    //   .catch(err => console.log(err));
   };
 
   //CREATE USER
@@ -101,20 +101,20 @@ export class MainForm extends Component {
       createUserData.username = this.state.username;
       createUserData.password = this.state.password;
       console.log(createUserData);
-      API.createUser(createUserData)
-        .then(res => {
-          console.log("Success: " + res);
-          // this.logIn();
-          API.logUser(this.state)
-            .then(res => {
-              if (res) {
-                console.log("RESPONSE!!!!! ", res);
-              }
-            })
-            .catch(err => console.log(err));
-          // this.props.changeLogStatus();
-        })
-        .catch(err => console.log("Error signing up! ", err));
+      // API.createUser(createUserData)
+      //   .then(res => {
+      //     console.log("Success: " + res);
+      //     // this.logIn();
+      //     API.logUser(this.state)
+      //       .then(res => {
+      //         if (res) {
+      //           console.log("RESPONSE!!!!! ", res);
+      //         }
+      //       })
+      //       .catch(err => console.log(err));
+      //     // this.props.changeLogStatus();
+      //   })
+      //   .catch(err => console.log("Error signing up! ", err));
     }
   };
 
@@ -133,13 +133,13 @@ export class MainForm extends Component {
       }
     };
 
-    API.updateUserInfo(userPersonalData)
-      .then(res => {
-        // this.logIn()
-        this.props.changeLogStatus();
-        console.log("Successfully updated profile information ", res);
-      })
-      .catch(err => console.log("Error updating data", err));
+    // API.updateUserInfo(userPersonalData)
+    //   .then(res => {
+    //     // this.logIn()
+    //     this.props.changeLogStatus();
+    //     console.log("Successfully updated profile information ", res);
+    //   })
+    //   .catch(err => console.log("Error updating data", err));
   };
 
   render() {

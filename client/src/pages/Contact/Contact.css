@@ -1,0 +1,50 @@
+/* 
+font-family: 'Squada One', cursive;
+font-family: 'Bahianita', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Handlee', cursive;
+*/
+
+/* CONTACT WELCOME */
+.contactWelcome {
+  margin-top: 5em;
+  width: 100%;
+  padding: 8em 4em 10em 4em;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Poiret One', cursive;
+}
+.contactWelcome h1 {
+  font-size: 4em;
+}
+
+/* MAIL TO SECTION */
+.mailTo {
+  padding-top: .5em;
+  padding-bottom: 8em;
+  border-bottom: 1px solid #000;
+  background-color: #000;
+}
+.mailTo a {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 2em 4em 2em 4em;
+  border-radius: 50px;
+  font-size: 1.5em;
+  letter-spacing: .25em;
+  font-family: 'Squada One', cursive;
+}
+.mailTo a:hover {
+  text-decoration: none;
+  color: rgb(86, 249, 84);
+}
+
